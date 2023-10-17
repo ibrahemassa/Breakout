@@ -3,7 +3,6 @@ from player import Player
 from ball import Ball
 from box import Box
 from score import Score
-import time
 
 screen = Screen()
 screen.setup(width=900, height=700)
@@ -62,5 +61,3 @@ while is_on:
 
 
 screen.exitonclick()
-
-
